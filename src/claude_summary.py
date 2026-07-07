@@ -18,7 +18,7 @@ def main():
     client = Anthropic(api_key=api_key)
 
     message = client.messages.create(
-        model="claude-3-5-haiku-latest",
+        model="claude-haiku-4-5-20251001",
         max_tokens=500,
         messages=[{"role": "user", "content": f"Create a short executive summary from this IT human-behaviour analytics report:\n\n{report}"}],
     )
