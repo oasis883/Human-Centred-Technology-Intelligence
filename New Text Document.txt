@@ -1,0 +1,79 @@
+mxfile host=app.diagrams.net
+  diagram name=Human-Centred Technology Intelligence
+    mxGraphModel dx=1200 dy=800 grid=1 gridSize=10 guides=1 tooltips=1 connect=1 arrows=1 fold=1 page=1 pageScale=1 pageWidth=1400 pageHeight=900
+      root
+        mxCell id=0
+        mxCell id=1 parent=0
+
+        mxCell id=title value=🧠 Human-Centred Technology Intelligence&#xa;AI-powered behavioural analytics for IT support operations style=rounded=1;whiteSpace=wrap;html=1;fillColor=#1f2937;fontColor=#ffffff;strokeColor=#111827;fontSize=22;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=330 y=40 width=740 height=80 as=geometry
+        mxCell
+
+        mxCell id=tickets value=📄 Synthetic IT Support Tickets&#xa;TSV  CSV Demo Data style=rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=560 y=170 width=280 height=80 as=geometry
+        mxCell
+
+        mxCell id=python value=🐍 Python Data Pipeline&#xa;Pandas Cleaning + Processing style=rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=560 y=300 width=280 height=80 as=geometry
+        mxCell
+
+        mxCell id=classification value=🧩 Behaviour Classification Engine&#xa;Memory • Communication • Security • Training style=rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=560 y=430 width=280 height=90 as=geometry
+        mxCell
+
+        mxCell id=report value=📊 Insights Report&#xa;Markdown + Processed CSV style=rounded=1;whiteSpace=wrap;html=1;fillColor=#e0e7ff;strokeColor=#4f46e5;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=180 y=590 width=260 height=80 as=geometry
+        mxCell
+
+        mxCell id=claude value=🤖 Claude AI&#xa;Executive Summary + Recommendations style=rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=560 y=590 width=280 height=80 as=geometry
+        mxCell
+
+        mxCell id=slack value=💬 Slack Notification&#xa;Webhook Automation style=rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9333ea;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=960 y=590 width=260 height=80 as=geometry
+        mxCell
+
+        mxCell id=dashboard value=🌐 Streamlit Dashboard&#xa;Plotly Charts • Filters • Ticket Explorer style=rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=560 y=740 width=300 height=80 as=geometry
+        mxCell
+
+        mxCell id=github value=🐙 GitHub + GitHub Actions&#xa;Version Control • CI Testing • Portfolio style=rounded=1;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#374151;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=180 y=740 width=280 height=80 as=geometry
+        mxCell
+
+        mxCell id=user value=👨‍💻 Viewer  Interviewer&#xa;Explores live dashboard and repository style=rounded=1;whiteSpace=wrap;html=1;fillColor=#fce7f3;strokeColor=#db2777;fontSize=16;fontStyle=1; vertex=1 parent=1
+          mxGeometry x=960 y=740 width=280 height=80 as=geometry
+        mxCell
+
+        mxCell id=e1 edge=1 parent=1 source=tickets target=python style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e2 edge=1 parent=1 source=python target=classification style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e3 edge=1 parent=1 source=classification target=report style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e4 edge=1 parent=1 source=classification target=claude style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e5 edge=1 parent=1 source=claude target=slack style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e6 edge=1 parent=1 source=report target=dashboard style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e7 edge=1 parent=1 source=claude target=dashboard style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e8 edge=1 parent=1 source=dashboard target=user style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+        mxCell id=e9 edge=1 parent=1 source=github target=dashboard style=endArrow=block;html=1;strokeWidth=2;
+          mxGeometry relative=1 as=geometry
+        mxCell
+
+      root
+    mxGraphModel
+  diagram
+mxfile
