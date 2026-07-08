@@ -9,10 +9,16 @@ DATA_PATH = Path("data/processed/behaviour_classified_tickets.csv")
 CLAUDE_SUMMARY_PATH = Path("reports/claude_summary.md")
 INSIGHTS_REPORT_PATH = Path("reports/insights_report.md")
 
-st.set_page_config(
-    page_title="Human-Centred Technology Intelligence",
-    page_icon="🧠",
-    layout="wide",
+st.sidebar.title("🧠 Navigation")
+
+page = st.sidebar.radio(
+    "Select Dashboard",
+    [
+        "Executive Overview",
+        "Behaviour Analytics",
+        "Claude AI Summary",
+        "Ticket Explorer"
+    ]
 )
 
 @st.cache_data
