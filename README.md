@@ -1,5 +1,10 @@
 # 🧠 Human-Centred Technology Intelligence
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](YOUR_STREAMLIT_URL)
+# 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://humantech-intelligence.streamlit.app)
+
+**Streamlit Dashboard:**  
+https://humantech-intelligence.streamlit.app
 
 
 > **AI-powered behavioural analytics for IT support operations using Python, Claude AI, Streamlit, Slack, and GitHub Actions.**
