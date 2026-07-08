@@ -1,5 +1,5 @@
-# 🧠 Human-Centred Technology Intelligence
-# 🌐 Live Demo
+#  Human-Centred Technology Intelligence
+#  Live Demo
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://humantech-intelligence.streamlit.app)
 
@@ -16,7 +16,7 @@ https://humantech-intelligence.streamlit.app
 
 ---
 
-# 📖 Overview
+#  Overview
 
 **Human-Centred Technology Intelligence** is a personal portfolio project exploring how Artificial Intelligence and behavioural analytics can improve the employee technology experience.
 
@@ -26,7 +26,7 @@ The project demonstrates an end-to-end workflow combining data processing, AI, a
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 This project aims to answer questions such as:
 
@@ -38,12 +38,12 @@ This project aims to answer questions such as:
 
 ---
 
-# 🏗 Architecture
+#  Architecture
 
 ![Architecture](images/architecture.png)
 ---
 
-# 📷 Project Preview
+#  Project Preview
 
 ## Executive Dashboard
 
@@ -63,22 +63,22 @@ This project aims to answer questions such as:
 
 ---
 
-# 🚀 Features
+#  Features
 
-- ✅ Python data processing pipeline
-- ✅ Behaviour classification engine
-- ✅ AI-generated executive summaries using Claude
-- ✅ Interactive Streamlit dashboard
-- ✅ Behaviour analytics visualisations
-- ✅ Searchable ticket explorer
-- ✅ Slack notification integration
-- ✅ Downloadable reports
-- ✅ GitHub Actions CI workflow
-- ✅ Privacy-safe synthetic dataset
+-  Python data processing pipeline
+-  Behaviour classification engine
+-  AI-generated executive summaries using Claude
+-  Interactive Streamlit dashboard
+-  Behaviour analytics visualisations
+-  Searchable ticket explorer
+-  Slack notification integration
+-  Downloadable reports
+-  GitHub Actions CI workflow
+-  Privacy-safe synthetic dataset
 
 ---
 
-# 🛠 Technology Stack
+#  Technology Stack
 
 | Category | Technologies |
 |----------|--------------|
@@ -95,7 +95,7 @@ This project aims to answer questions such as:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 Human-Centred-Technology-Intelligence
@@ -127,7 +127,7 @@ Human-Centred-Technology-Intelligence
 
 ---
 
-# ⚙ Workflow
+#  Workflow
 
 ```text
 Synthetic Tickets
@@ -156,21 +156,21 @@ GitHub Actions
 
 ---
 
-# 📊 Behaviour Categories
+#  Behaviour Categories
 
 The project classifies recurring IT support requests into behavioural categories such as:
 
-- 🧠 Memory & Authentication
-- 💬 Communication & Collaboration
-- 📚 Knowledge & Training
-- 🔒 Security Awareness
-- ⚙ Technology Friction
+-  Memory & Authentication
+-  Communication & Collaboration
+-  Knowledge & Training
+-  Security Awareness
+-  Technology Friction
 
 These insights help identify recurring themes that may be addressed through better documentation, system improvements, automation, or user education.
 
 ---
 
-# 🤖 AI Integration
+#  AI Integration
 
 Claude AI is used to generate an executive summary based on the processed behavioural insights.
 
@@ -183,7 +183,7 @@ Rather than simply reporting ticket counts, the AI summarises:
 
 ---
 
-# 🔒 Privacy
+#  Privacy
 
 This project uses **synthetic IT support ticket data only**.
 
@@ -191,7 +191,7 @@ No real company information, production systems, confidential data, or personal 
 
 ---
 
-# 🚀 Getting Started
+#  Getting Started
 
 ## Clone the repository
 
@@ -243,33 +243,29 @@ python -m streamlit run dashboard/app.py
 
 ---
 
-# 🌐 Live Demo
 
-**Streamlit Dashboard**
-
-> *(Add your Streamlit Cloud URL here once deployed.)*
 
 ---
 
-# 📈 Future Roadmap
+#  Future Roadmap
 
-- [x] Python data pipeline
-- [x] Behaviour classification
-- [x] Streamlit dashboard
-- [x] Claude AI integration
-- [x] Slack notifications
-- [x] GitHub Actions
-- [ ] AI chat interface
-- [ ] Trend analysis
-- [ ] Power BI integration
-- [ ] Azure DevOps pipeline
-- [ ] REST API
-- [ ] Azure deployment
-- [ ] Authentication & role-based access
+-  Python data pipeline
+-  Behaviour classification
+-  Streamlit dashboard
+-  Claude AI integration
+-  Slack notifications
+-  GitHub Actions
+-  AI chat interface
+-  Trend analysis
+-  Power BI integration
+-  Azure DevOps pipeline
+-  REST API
+-  Azure deployment
+-  Authentication & role-based access
 
 ---
 
-# 💡 Why I Built This
+#  Why I Built This
 
 Throughout my experience in IT Support, I realised that support tickets represent more than technical problems—they also reflect how people interact with technology.
 
@@ -285,7 +281,7 @@ It combines my interests in:
 
 ---
 
-# 👨‍💻 About Me
+#  About Me
 
 **Oasis Man Maharjan**
 
@@ -295,4 +291,4 @@ I'm passionate about combining AI, automation, and behavioural insights to build
 
 ---
 
-⭐ *If you found this project interesting, feel free to star the repository or connect with me on LinkedIn.*
+ *If you found this project interesting, feel free to star the repository or connect with me on LinkedIn.*
