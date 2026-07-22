@@ -1,13 +1,35 @@
+# ===========================
+# Secrets
+# ===========================
+.env
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# ===========================
+# Generated data
+# ===========================
 data/raw/*
 !data/raw/.gitkeep
 
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/behaviour_classified_tickets.csv
 
+# ===========================
+# Generated reports
+# ===========================
 reports/*
 !reports/.gitkeep
+!reports/claude_summary.md
+!reports/insights_report.md
 
-.env
-__pycache__/
-*.pyc
-.pytest_cache/
+# Do NOT commit AI-generated outputs
+reports/pattern_evidence.json
+reports/ai_behaviour_patterns.json
+desktop.ini
